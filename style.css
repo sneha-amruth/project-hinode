@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --white : #eeeeee;
+    --main-font : 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: black;  
+    font-family: var(--main-font);
+    color: var(--white);
+}
+
+/*navigation*/
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 7vw;
+   
+}
+
+
+.nav-brand a {
+    display: flex;
+    color: var(--white);
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.nav-brand h1 {
+    position: relative;
+    top: 18px;
+    right: 48px;
+}
+
+.nav-brand img {
+    max-width: 30%;
+    height: auto;
+    position: relative;
+    top: -45px;
+}
+.nav-pills a{
+    color: var(--white);
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 18px;
+}
+
+/*main body styling*/
+.main-body-img{
+    width: 800px;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 123px;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.body-intro {
+    width: 800px;
+    max-width: 100%;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    font-size: 20px;
+}
+
+.body-intro h1, p {
+    padding: 20px;
+}
+
+.body-intro button {
+ background-color: transparent;
+ color: var(--white);
+ padding: 10px;
+ font-size: 20px;
+ margin-left: 20px;
+ margin-top: 10px;
+ border: 1px solid white;
+}
+.body-intro button:hover {
+    background-color: #f6b900;
+}
