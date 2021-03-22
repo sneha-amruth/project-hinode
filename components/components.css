@@ -14,16 +14,16 @@ body {
     background-color: white;  
     font-family: var(--main-font);
     color: var(--black);
-    overflow: hidden;
+   
 }
 
 /*side navigation*/
 .side-nav-container {
     background-color: black;  
     position: fixed;
-    width: 250px;
+    width: 350px;
     height: 100%;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 .nav-brand a {
     display: flex;
@@ -35,8 +35,8 @@ body {
 }
 .nav-brand h1 {
     position: relative;
-    top: 18px;
-    right: 36px;
+    top: 42px;
+    right: 48px;
 }
 
 .nav-brand img {
@@ -50,13 +50,13 @@ body {
 .side-nav-pills {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    position: relative;
+    bottom: 30px;
 }
 .side-nav-pills li{
     padding: 15px;
-    margin-left: 20px;
-    border-top: 1px solid rgba(233, 230, 230,0.05);
-    border-bottom: 1px solid rgba(255, 255, 255,0.05);
+    margin-left: 50px;
+  
 }
 .side-nav-link {
     color: var(--white);
@@ -64,14 +64,18 @@ body {
    
 }
 .side-nav-pills li:hover{
-    background-color: #f6b900;
-    
+    background-color: #f7bb08;
+    border-radius: 6px;
+    padding-left: 35px;
  }
  
 
 /*main body*/
 main {
     width: 100%;
-    margin-left: 250px;
+    margin-left: 350px;
     padding: 120px;
+}
+main * {
+    padding: 10px;
 }

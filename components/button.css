@@ -1,0 +1,29 @@
+
+.btn-examples button{
+    margin: 0.4rem;
+}
+
+.btn {
+   padding: 0.8rem;
+   font-weight: 400;
+   font-size: 1rem;
+   border-radius: .25rem;
+   border: 1px solid transparent;
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+}
+.btn-secondary {
+    color: black;
+    background-color: grey;
+}
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.btn-large {
+    padding: 0.8rem 6rem;
+}

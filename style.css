@@ -87,7 +87,8 @@ body {
  margin-left: 20px;
  margin-top: 10px;
  border: 1px solid white;
+ border-radius: 8px;
 }
 .body-intro button:hover {
-    background-color: #f6b900;
+    background-color: #f7bb08;
 }

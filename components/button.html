@@ -6,28 +6,52 @@
     <title>Hinode</title>
     <link rel="shortcut icon" href="./assets/logo.ico" />
     <link rel="stylesheet" href="./components.css"/>
+    <link rel="stylesheet" href="button.css">
 </head>
 <body>
-    <nav class="nav-container">
-        <h1 class="nav-brand">Hinode</h1>
-        <div class="nav-pills"> 
-            <a href="/index.html">Home</a>
-            <a href="/components/intro.html">Docs</a>
+  <div class="wrapper">
+
+    <aside class="side-nav-container">
+        <div class="nav-brand">
+          <a href="/index.html">
+            <img src="../assets/hinode-tm.png">
+            <h1>Hinode</h1>
+          </a>
+      </div>
+      <div>
+        <ul class="side-nav-pills">
+          <li><a href="intro.html" class="side-nav-link">Getting Started</a></li>
+          <li><a href="/components/button.html" class="side-nav-link">Button</a></li>
+          <li><a href="/components/avatar.html" class="side-nav-link">Avatar</a></li>
+          <li><a href="/components/banner.html" class="side-nav-link">Banner</a></li>
+          <li><a href="/components/card.html" class="side-nav-link">Card</a></li>
+          <li><a href="/components/image.html" class="side-nav-link">Image</a></li>
+          <li><a href="/components/input.html" class="side-nav-link">Input</a></li>
+          <li><a href="/components/modal.html" class="side-nav-link">Modal</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+        <h1>Button</h1>
+        <p>Use different button styles for any action or event to happen on click</p>
+        <h2>Examples</h2>
+        <div class="btn-examples">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline">Outline</button>
+            <button type="button" class="btn btn-primary btn-large">Large Button</button>
         </div>
-     </nav>
-     <div class="main-body-content">
-        <aside>
-            <ul class="side-nav">
-              <li class="flex"><a href="intro.html" class="side-nav-link">Getting Started</a></li>
-              <li class="flex"><a href="#" class="side-nav-link">Introduction</a></li>
-              <li class="flex"><a href="button.html" class="side-nav-link">Button</a></li>
-            </ul>
-        </aside>
-        <main>
-            <h1>Button</h1>
+        <div class='code-snippet'>
+           <iframe
+             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=auto&ds=true&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=55px&ph=42px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=134%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2522%253EOutline%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520btn-large%2522%253ELarge%2520Button%253C%252Fbutton%253E"
+             style="width: 807px; height: 264px; border:0; transform: scale(1); overflow:hidden;"
+             sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
 
-        </main>
-
-    </div>
+    </main>
+  </div>
+   
 </body>
 </html>
