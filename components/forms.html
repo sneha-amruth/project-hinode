@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinode</title>
+    <link rel="shortcut icon" href="./assets/logo.ico" />
+    <link rel="stylesheet" href="./components.css"/>
+    <link rel="stylesheet" href="./button.css"/>
+    <link rel="stylesheet" href="forms.css">
+
+</head>
+<body>
+  <div class="wrapper">
+
+    <aside class="side-nav-container">
+        <div class="nav-brand">
+          <a href="/index.html">
+            <img src="../assets/hinode-tm.png">
+            <h1>Hinode</h1>
+          </a>
+      </div>
+      <div>
+        <ul class="side-nav-pills">
+          <li><a href="intro.html" class="side-nav-link">Getting Started</a></li>
+          <li><a href="/components/button.html" class="side-nav-link">Button</a></li>
+          <li><a href="/components/avatar.html" class="side-nav-link">Avatar</a></li>
+          <li><a href="/components/carousel.html" class="side-nav-link">Carousel</a></li>
+          <li><a href="/components/card.html" class="side-nav-link">Card</a></li>
+          <li><a href="/components/forms.html" class="side-nav-link">Forms</a></li>
+          <li><a href="/components/modal.html" class="side-nav-link">Modal</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+        <h1>Forms</h1>
+        <p>Different form types to get data from from users</p>
+        <h2>Login Form</h2>
+        <div class="input-container">
+            <div class="login-form">
+              <label>Email</label>
+              <input></input>
+              <label>Password</label>
+              <input type="password"></input>
+              <button type="button" class="btn btn-primary btn-large">SIGN IN</button>
+              <button type="button" class="btn btn-large">Create account</button>
+            </div>
+        </div>
+        <div class='code-snippet'>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=dart&ds=true&dsyoff=37px&dsblur=68px&wc=true&wa=false&pv=55px&ph=42px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522login-form%2522%253E%250A%2520%2520%253Clabel%253EEmail%253C%252Flabel%253E%250A%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%253Clabel%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%253E%253C%252Finput%253E%250A%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520btn-large%2522%253ESIGN%2520IN%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-large%2522%253ECreate%2520account%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+            style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+
+        <!--Address form-->
+
+        <h2>Address Form</h2>
+        <div class="input-container">
+          <h4>ADD A NEW ADDRESS</h4>
+          <div class="address-form">
+              <div class="flex-container-row">
+                  <div class="flex-container-column one">
+                    <label>First Name</label>
+                    <input></input>
+                  </div>
+                  <div class="flex-container-column two">
+                    <label>Last Name</label>
+                    <input></input>
+                  </div>
+              </div>
+            <label>Company</label>
+            <input></input>
+            <label>Address1</label>
+            <input></input>
+            <label>Address2</label>
+            <input></input>
+            <div class="flex-container-row">
+                <div class="flex-container-column one">
+                  <label>City</label>
+                  <input></input>
+                </div>
+                <div class="flex-container-column two">
+                  <label>Country</label>
+                  <input></input>
+                </div>
+            </div>
+            <label>Province</label>
+            <input></input>
+            <div class="flex-container-row">
+                <div class="flex-container-column one">
+                  <label>Postal/Zip Code</label>
+                  <input></input>
+                </div>
+                <div class="flex-container-column two">
+                  <label>Phone</label>
+                  <input></input>
+                </div>
+            </div>
+            <div class="address-form-footer">
+                <input type="checkbox">
+                <label> Set as default address</label><br>
+                <button type="button" class="btn btn-primary">ADD ADDRESS</button>
+                <button type="button" class="btn btn-outline">Cancel</button>
+            </div>
+          </div>
+      </div>
+       <div class='code-snippet'>
+          <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=dart&ds=true&dsyoff=37px&dsblur=68px&wc=true&wa=false&pv=55px&ph=42px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=134%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EADD%2520A%2520NEW%2520ADDRESS%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522address-form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-column%2520one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EFirst%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-column%2520two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253ELast%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253ECompany%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EAddress1%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EAddress2%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-column%2520one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253ECity%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-column%2520two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253ECountry%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EProvince%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-column%2520one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPostal%252FZip%2520Code%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-container-column%2520two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPhone%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522address-form-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%2520Set%2520as%2520default%2520address%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EADD%2520ADDRESS%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+          style="width: 898px; height: 1119px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        </div>
+    </main>
+  </div>
+   
+</body>
+</html>

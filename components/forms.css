@@ -1,0 +1,65 @@
+/*login form*/
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.login-form input {
+    margin-bottom: 1rem;
+    position: relative;
+    left: 0.51rem;
+}
+
+.login-form button {
+    border-radius: 6rem;
+    margin: 0.4rem;
+}
+
+/*address form*/
+.address-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.address-form input {
+    position: relative;
+    left: 0.51rem;
+}
+.address-form button{
+    width: 50%;
+    margin: 0.4rem;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-right: 1rem;
+    padding: 0;
+    width: 100%;
+}
+.flex-container-row .one {
+    margin-right: 2rem;
+}
+.flex-container-column input {
+    width: 107%;
+}
+.address-form-footer {
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 1.2rem;
+}
+.address-form-footer .btn-primary {
+    margin-top: 1rem;
+}
+.btn-outline {
+    border: transparent;
+    text-align: left;
+}
