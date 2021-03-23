@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinode</title>
+    <link rel="shortcut icon" href="./assets/logo.ico" />
+    <link rel="stylesheet" href="./components.css"/>
+    <link rel="stylesheet" href="button.css"/>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <aside class="side-nav-container">
+        <div class="nav-brand">
+          <a href="/index.html">
+            <img src="../assets/hinode-tm.png">
+            <h1>Hinode</h1>
+          </a>
+      </div>
+      <div>
+        <ul class="side-nav-pills">
+          <li><a href="intro.html" class="side-nav-link">Getting Started</a></li>
+          <li><a href="/components/button.html" class="side-nav-link">Button</a></li>
+          <li><a href="/components/avatar.html" class="side-nav-link">Avatar</a></li>
+          <li><a href="/components/carousel.html" class="side-nav-link">Carousel</a></li>
+          <li><a href="/components/card.html" class="side-nav-link">Card</a></li>
+          <li><a href="/components/image.html" class="side-nav-link">Image</a></li>
+          <li><a href="/components/input.html" class="side-nav-link">Input</a></li>
+          <li><a href="/components/modal.html" class="side-nav-link">Modal</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+        <h1>Card</h1>
+        <p>Use different card styles</p>
+        <h2>Examples</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="/assets/card-images/card-image-one.png"/>
+                <div class="card-content">
+                    <h4>Card Title goes here</h4>
+                    <p>sub heading</p>
+                    <p>Card description |<span>another description</span></p>
+                    <a href="#"><button type="button" class="btn btn-outline">Go here now</button></a>
+                </div> 
+            </div>
+            <div class="card card-md">
+                <img src="/assets/card-images/card-image-one.png"/>
+                <div class="card-content">
+                    <h4>Card Title goes here</h4>
+                    <p>sub heading</p>
+                    <p>Card description |<span>another description</span></p>
+                    <a href="#"><button type="button" class="btn btn-outline">Go here now</button></a>
+                </div>
+            </div>
+            <div class="card card-small">
+                <img src="/assets/card-images/card-image-one.png"/>
+                <div class="card-content">
+                    <h4>Card Title goes here</h4>
+                    <p>sub heading</p>
+                </div>
+            </div>
+        </div>
+        <div class='code-snippet'>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=auto&ds=true&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=55px&ph=42px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=134%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcard-images%252Fcard-image-one.png%2522%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%2520goes%2520here%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253Esub%2520heading%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ECard%2520description%2520%257C%253Cspan%253Eanother%2520description%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2522%253EGo%2520here%2520now%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522card%2520card-md%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcard-images%252Fcard-image-one.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%2520goes%2520here%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253Esub%2520heading%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECard%2520description%2520%257C%253Cspan%253Eanother%2520description%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2522%253EGo%2520here%2520now%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcard-images%252Fcard-image-one.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%2520goes%2520here%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Esub%2520heading%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+            style="width: 903px; height: 663px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h2>Card with badge</h2>
+        <div class="card-container">
+            <div class="card card-md">
+                <img src="/assets/card-images/card-image-two.jpeg"/>
+                <span class="badge">Sold Out</span>
+                <div class="card-content">
+                    <h4>Card Title goes here</h4>
+                    <p>sub heading</p>
+                    <p>Card description |<span>another description</span></p>
+                    <a href="#"><button type="button" class="btn btn-outline">Go here now</button></a>
+                </div> 
+            </div>
+            <div class='code-snippet'>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=auto&ds=true&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=55px&ph=42px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=134%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2520card-md%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcard-images%252Fcard-image-two.jpeg%2522%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253ESold%2520Out%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%2520goes%2520here%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253Esub%2520heading%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ECard%2520description%2520%257C%253Cspan%253Eanother%2520description%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2522%253EGo%2520here%2520now%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%253C%252Fdiv%253E"
+                style="width: 895px; height: 378px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+        </div>
+        <h2>Card with text</h2>
+        <div class="text-card">
+            <h2>Out Of Stock!</h2>
+            <p>We will notify you when this product becomes available.</p>
+            <input placeholder="Email Address"><span><button type="button" class="btn btn-primary">Notify me</button></span></input>
+        </div>
+        <div class='code-snippet'>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=dart&ds=true&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=55px&ph=42px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=134%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%253Ch2%253EOut%2520Of%2520Stock%21%253C%252Fh2%253E%250A%2520%2520%2520%253Cp%253EWe%2520will%2520notify%2520you%2520when%2520this%2520product%2520becomes%2520available.%253C%252Fp%253E%250A%2520%2520%2520%253Cinput%2520placeholder%253D%2522Email%2520Address%2522%253E%250A%2520%2520%2520%253Cspan%253E%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253ENotify%2520me%253C%252Fbutton%253E%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Finput%253E%250A%2520%253C%252Fdiv%253E"
+            style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+
+    </main>
+  </div>
+   
+</body>
+</html>

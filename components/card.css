@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*standard card*/
+.card-container {
+    display: flex;
+}
+
+.card {
+   border: 2px solid grey;
+   width: 22rem;
+   height: 34rem;
+   position: relative;
+   padding: 0;
+   margin: 1rem;
+}
+.card img {
+    position: absolute;
+    top: 0;
+    padding-bottom: 1.2rem;
+    width: 22rem;
+    height: 25rem;
+   
+}
+.card-content {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0.4rem;
+    left: 3rem;
+}
+
+.card-content h4, p {
+    padding: 0.4rem;
+}
+/*medium sized card*/
+.card-md {
+    width: 20rem;
+    height: 30rem;
+}
+
+.card-md img {
+    width: 20rem;
+    height: 22rem;
+}
+
+.card-md .card-content {
+    left: 1rem;
+}
+
+/*small sized card*/
+.card-small {
+    width: 16rem;
+    height: 22rem;
+}
+
+.card-small img {
+    width: 16rem;
+    height: 18rem;
+}
+
+/*card with a badge*/
+.card .badge {
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    right: 0.4rem;
+    top: 0.65rem;
+}
+
+/*text card*/
+.text-card {
+    border: 1px solid rgb(224, 224, 224);
+    width: 40%;
+}
+.text-card p {
+    position: relative;
+    left: 0.2rem;
+}
+.text-card input {
+    width: 60%;
+    margin: 0.6rem;
+}
