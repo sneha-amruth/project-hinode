@@ -1,3 +1,9 @@
+@import url("/components/button/button.css");
+@import url("/components/card/card.css");
+@import url("/components/carousel/carousel.css");
+@import url("/components/forms/forms.css");
+@import url("/components/modal/modal.css");
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -67,6 +73,7 @@ body {
 .side-nav-pills li:hover{
     background-color: #f7bb08;
     border-radius: 6px;
+   
  }
  
 
