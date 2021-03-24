@@ -70,12 +70,33 @@ body {
     text-decoration: none;
    
 }
+.side-nav-link:hover {
+    color: black;
+}
 .side-nav-pills li:hover{
     background-color: #f7bb08;
     border-radius: 6px;
-   
+    color: black;
  }
- 
+ /*top nav - social media links*/
+/*.top-nav  {
+    width: 8%;
+    height: 10%;
+   
+    position: absolute;
+    top: 1rem;
+    right: 0.4rem;
+}
+.top-nav img {
+    background-color: black;
+    
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    width: 25%;
+}
+.top-nav .github {
+    border: 1px solid black;
+}*/
 
 /*main body*/
 main {

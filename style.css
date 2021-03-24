@@ -109,3 +109,18 @@ body {
     background-color: #f7bb08;
     color: black;
 }
+
+/*body footer - social media links*/
+.body-footer  {
+    width: 10%;
+    height: 10%;
+    
+    position: absolute;
+    right: 7rem;
+    bottom: 0;
+}
+.body-footer img {
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    width: 25%;
+}
