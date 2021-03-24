@@ -67,7 +67,6 @@ body {
 .side-nav-pills li:hover{
     background-color: #f7bb08;
     border-radius: 6px;
-    padding-left: 35px;
  }
  
 
@@ -75,8 +74,8 @@ body {
 main {
     width: 100%;
     margin-left: 350px;
-    padding: 120px;
+   padding: 120px;
 }
 main * {
-    padding: 10px;
+   padding: 10px;
 }

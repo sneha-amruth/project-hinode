@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinode</title>
+    <link rel="shortcut icon" href="./assets/logo.ico" />
+    <link rel="stylesheet" href="./components.css"/>
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <aside class="side-nav-container">
+        <div class="nav-brand">
+          <a href="/index.html">
+            <img src="../assets/hinode-tm.png">
+            <h1>Hinode</h1>
+          </a>
+      </div>
+      <div>
+        <ul class="side-nav-pills">
+          <li><a href="intro.html" class="side-nav-link">Getting Started</a></li>
+          <li><a href="/components/button.html" class="side-nav-link">Button</a></li>
+          <li><a href="/components/avatar.html" class="side-nav-link">Avatar</a></li>
+          <li><a href="/components/carousel.html" class="side-nav-link">Carousel</a></li>
+          <li><a href="/components/card.html" class="side-nav-link">Card</a></li>
+          <li><a href="/components/forms.html" class="side-nav-link">Forms</a></li>
+          <li><a href="/components/modal.html" class="side-nav-link">Modal</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+        <h1>Modal</h1>
+        <p>Use different </p>
+        <h2>Examples</h2>
+        <div class="modal-container">
+            <div class="modal-dialogue">
+                <button type="button" id="modal-btn" class="btn btn-primary">Remove</button>
+                <div  id="modal-id" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Are you sure you want to delete?</p>
+                        <button type="button" id="modal-btn-cancel" class="btn btn-outline">Cancel</button>
+                        <button type="button" id="modal-btn-delete" class="btn btn-primary">Delete</button>      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='code-snippet'>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=dart&ds=true&dsyoff=37px&dsblur=68px&wc=true&wa=false&pv=55px&ph=42px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=134%25&si=false&es=2x&wm=false&code=%250A%2520%253Cdiv%2520class%253D%2522modal-dialogue%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520id%253D%2522modal-btn%2522%2520class%253D%2522btn%2520btn-primary%2522%253ERemove%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520%2520id%253D%2522modal-id%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAre%2520you%2520sure%2520you%2520want%2520to%2520delete%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520id%253D%2522modal-btn-cancel%2522%2520class%253D%2522btn%2520btn-outline%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520id%253D%2522modal-btn-delete%2522%2520class%253D%2522btn%2520btn-primary%2522%253EDelete%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520"
+            style="width: 898px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+
+    </main>
+  </div>
+  <script src="./modal.js"></script>
+</body>
+</html>
