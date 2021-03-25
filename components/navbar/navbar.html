@@ -6,12 +6,12 @@
     <title>Hinode</title>
     <link rel="shortcut icon" href="/assets/logo.ico" />
     <link rel="stylesheet" href="/components/components.css"/>
-   
+    <link rel="stylesheet" href="navbar.css"/>
 </head>
 <body>
   <div class="wrapper">
 
-    <aside class="side-nav-container">
+      <aside class="side-nav-container">
         <div class="nav-brand">
           <a href="/index.html">
             <img src="/assets/hinode-tm.png">
@@ -33,34 +33,56 @@
     </aside>
 
     <main>
-        <h1>Navbar (Work in progress..)</h1>
+        <h1>Navbar</h1>
         <p>Use navbar on top of your website</p>
         <h2>Examples</h2>
-        <div class="nav-container">
-          <!-- <nav>
-              <div class="nav-brand">
-                <a href="/index.html">
-                  <img src="/assets/hinode-tm.png">
-                  <h1>Hinode</h1>
-                </a>
-            </div>
-            <div>
-              <ul class="nav-pills">
-                <li><a href="#" class="side-nav-link">Getting Started</a></li>
-                <li><a href="#" class="side-nav-link">Button</a></li>
-                <li><a href="#" class="side-nav-link">Avatar</a></li>
-                <li><a href="#" class="side-nav-link">Carousel</a></li>
-                <li><a href="#" class="side-nav-link">Card</a></li>
-                <li><a href="#" class="side-nav-link">Forms</a></li>
-                
-              </ul>
-            </div>
-           </nav>-->
-        </div>
+        <nav class="top-nav-container">
+          <div class="brand-conatiner">
+            <a href="/index.html">
+              <h1>Hinode</h1>
+            </a>
+          </div>
+          <div>
+            <ul class="pills">
+              <li><a href="#">Title1</a></li>
+              <li class="dropdown">
+                <a href="#">Dropdown</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </li>
+              <li><a href="#">Avatar</a></li>
+              <li><a href="#">Carousel</a></li>
+              <li><a href="#">Card</a></li>
+              <li><a href="#">Forms</a></li>
+              <li class="icon-li"><a href="#"><img class="icon" src="/assets/icons/cart.png"></a></li>
+              <li class="icon-li"><a href="#"><img class="icon" src="/assets/icons/search.png"></a></li>
+            </ul>
+          </div>
+        </nav>
         <div class='code-snippet'>
-           
+          <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=text%2Fx-c%2B%2Bsrc&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cnav%2520class%253D%2522top-nav-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522brand-conatiner%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%252Findex.html%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%253EHinode%253C%252Fh1%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522pills%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253ETitle1%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522dropdown%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EDropdown%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dropdown-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25203%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EAvatar%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253ECarousel%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253ECard%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EForms%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522icon-li%2522%253E%253Ca%2520href%253D%2522%2523%2522%253E%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522%252Fassets%252Ficons%252Fcart.png%2522%253E%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522icon-li%2522%253E%253Ca%2520href%253D%2522%2523%2522%253E%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522%252Fassets%252Ficons%252Fsearch.png%2522%253E%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fnav%253E"
+          style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+         </iframe>
         </div>
-
+        <h2>Youtube navbar example</h2>
+        <nav class="yt-nav-container">
+          <div class="yt-nav-brand">
+            <img src="/assets/icons/yt.png">
+            <h2>Youtube</h2>
+          </div>
+          <div class="yt-search">
+            <input type="text" placeholder="Search.." name="search">
+            <!--<button type="submit"><img class="icon" src="/assets/icons/search.png"></i></button>-->
+          </div>
+          <div>
+            
+          </div>
+        </nav>
     </main>
   </div>
    

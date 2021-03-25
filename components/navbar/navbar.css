@@ -1,0 +1,78 @@
+
+.brand-conatiner a{
+    text-decoration: none;
+    color: black;
+}
+.top-nav-container {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.pills {
+    padding-top: 1.2rem;
+    list-style-type: none;
+    display: flex;
+}
+
+.pills a{
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .icon-li {
+    padding: 0;
+    margin: 0;
+}
+.icon {
+ position: relative;
+ bottom: 0.5rem;
+ width: 4rem;
+ height: 4rem;
+ border-radius: 10%;
+}
+
+  /*youtube nav container*/
+.yt-nav-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 70%;
+}
+.yt-nav-brand {
+  display: flex;
+}
+.yt-nav-brand img {
+  width: 4rem;
+  height: 4rem;
+}
+/*
+.icon-search {
+  width: 4rem;
+  height: 4rem;
+}
+*/

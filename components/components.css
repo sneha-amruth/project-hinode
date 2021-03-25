@@ -21,7 +21,8 @@ body {
     background-color: white;  
     font-family: var(--main-font);
     color: var(--black);
-   
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /*side navigation*/
