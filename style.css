@@ -168,8 +168,8 @@ body {
     .body-footer  {
         width: 8rem;
         height: 4rem;
-        right: 7rem;
-        bottom: 12rem;
+        right: 0.6rem;
+        bottom: 16rem;
     }
     .body-footer img {
         margin: 0 0.2rem;
