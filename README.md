@@ -1,2 +1,2 @@
 # project-hinode
- UI Component Library
+CSS Component Library
