@@ -156,7 +156,7 @@ body {
     /*main body*/
     .body-intro {
         text-align: center;
-        top: 12rem;
+        top: 10rem;
         font-size: 1.2rem;
     }
     .main-body-img{
@@ -169,7 +169,7 @@ body {
         width: 8rem;
         height: 4rem;
         right: 7rem;
-        bottom: 18rem;
+        bottom: 14rem;
     }
     .body-footer img {
         margin: 0 0.2rem;
