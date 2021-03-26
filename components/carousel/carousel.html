@@ -32,26 +32,43 @@
     </aside>
 
     <main>
-        <h1>Carousel (Work in progress..)</h1>
+        <h1>Carousel</h1>
         <p>Use different images or text as a slideshow</p>
         <h2>Examples</h2>
-        <div id="carousel" class="carousel-container">
-            <figure class="carousel-image">
-             <img src='/assets/carousel-images/krave-two.png' alt="carousel-image"/>
-            </figure>
-            <figure class="carousel-image">
-              <img src='/assets/carousel-images/Krave.png' alt="carousel-image"/>
-             </figure>
-            <figure class="carousel-image">
-              <img src='/assets/carousel-images/innisfree.jpeg' alt="carousel-image"/>
-            </figure>
-            <figure class="carousel-image">
-              <img src='/assets/carousel-images/bodyshop.jpeg' alt="carousel-image"/>
-           </figure>
-           
-        </div>
+          <div class="carousel">
+            <button class="carousel__btn carousel__btn--left is-hidden">
+              <img src="/assets/icons/left-arrow.png" alt=""/>
+            </button>
+            <div class="carousel__track-container">
+              <ul class="carousel__track">
+                 <li class="carousel__slide current-slide">
+                    <img class="carousel__image" src="/assets/carousel-images/bodyshop.jpeg" alt=""/>
+                 </li>
+                 <li class="carousel__slide">
+                  <img class="carousel__image" src="/assets/carousel-images/krave-two.png" alt=""/>
+                 </li>
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="/assets/carousel-images/cosrx.jpeg" alt=""/>
+                </li>
+              </ul>
+            </div>
+            
+            <button class="carousel__btn carousel__btn--right">
+              <img src="/assets/icons/right-arrow.png" alt=""/>
+            </button>
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
+          </div>
+
         <div class='code-snippet'>
-          
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=base16-dark&wt=bw&l=text%2Fx-c%2B%2Bsrc&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522carousel%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522carousel__btn%2520carousel__btn--left%2520is-hidden%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Ficons%252Fleft-arrow.png%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522carousel__track-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522carousel__track%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522carousel__slide%2520current-slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522carousel__image%2522%2520src%253D%2522%252Fassets%252Fcarousel-images%252Fbodyshop.jpeg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522carousel__slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522carousel__image%2522%2520src%253D%2522%252Fassets%252Fcarousel-images%252Fkrave-two.png%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522carousel__slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522carousel__image%2522%2520src%253D%2522%252Fassets%252Fcarousel-images%252Fcosrx.jpeg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522carousel__btn%2520carousel__btn--right%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Ficons%252Fright-arrow.png%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522carousel__nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522carousel__indicator%2520current-slide%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522carousel__indicator%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522carousel__indicator%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 938px; height: 676px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
 
     </main>

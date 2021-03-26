@@ -23,16 +23,6 @@ body {
     padding: 20px 7vw;
    
 }
-
-
-/*.nav-brand a {
-    display: flex;
-    color: var(--white);
-    font-size: 20px;
-    padding: 10px;
-    text-decoration: none;
-    
-}*/
 .nav-brand a {
     display: flex;
     color: var(--white);
