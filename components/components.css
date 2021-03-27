@@ -123,23 +123,13 @@ main * {
         top: 1.8rem;
         left: 1.2rem;
     }
-    .nav-brand {
-      
-        border: 2px solid red;
-    }
     main {
-        border: 2px solid blue;
         position: absolute;
         padding: 1em;
         margin-top: 7rem;
         margin-left: 0;
         width: 25rem;  
     }
-     /* main * {
-        padding: 0.8rem;
-        padding-bottom: 2rem;
-     }  */
-     
     footer {
         border: 0.4rem;
         border-top: 1px solid grey;
