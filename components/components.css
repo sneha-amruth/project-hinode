@@ -1,9 +1,10 @@
 @import url("/components/button/button.css");
+@import url("/components/avatar/avatar.css");
 @import url("/components/card/card.css");
 @import url("/components/carousel/carousel.css");
 @import url("/components/forms/forms.css");
 @import url("/components/modal/modal.css");
-
+@import url("/components/navbar/navbar.css");
 * {
     box-sizing: border-box;
     padding: 0;
@@ -79,25 +80,6 @@ body {
     border-radius: 6px;
     color: black;
  }
- /*top nav - social media links*/
-/*.top-nav  {
-    width: 8%;
-    height: 10%;
-   
-    position: absolute;
-    top: 1rem;
-    right: 0.4rem;
-}
-.top-nav img {
-    background-color: black;
-    
-    margin: 0 0.5rem;
-    border-radius: 50%;
-    width: 25%;
-}
-.top-nav .github {
-    border: 1px solid black;
-}*/
 
 /*main body*/
 main {
