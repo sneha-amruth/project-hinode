@@ -47,3 +47,9 @@
   #modal-btn-cancel {
     cursor: pointer;
   }
+  @media only screen and (max-width: 480px) { 
+    .modal-content {
+      width: 80%;
+    }
+    
+   } 

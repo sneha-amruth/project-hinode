@@ -2,7 +2,8 @@
 .login-form {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    /* width: 30%; */
+    width: 23rem;
 }
 .login-form input {
     margin-bottom: 1rem;
@@ -62,4 +63,21 @@
 .btn-outline {
     border: transparent;
     text-align: left;
+}
+
+@media only screen and (max-width: 480px) { 
+    .text-card {
+      width: 22rem;   
+    }
+    footer {
+        padding: 1rem;
+    }
+    .login-form {
+        width: 20rem;
+    }
+    .address-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }

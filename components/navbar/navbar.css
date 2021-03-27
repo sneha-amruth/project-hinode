@@ -76,3 +76,22 @@
   height: 4rem;
 }
 */
+@media only screen and (max-width: 480px) { 
+  .top-nav-container {
+    width: 100%;
+  }
+  .top-nav-container *{
+    padding: 0.1rem;
+    margin: 0.1rem;
+  }
+  .top-nav-container li {
+    display: none;
+  }
+ 
+  .yt-nav-container {
+    width: 100%;
+  }
+  .yt-search input {
+    width: 130%;
+  }
+ } 
