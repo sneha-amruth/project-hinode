@@ -3,7 +3,7 @@
 
 Browse through different design components like *buttons, cards, forms, carousel, etc.*
 
-This makes the designing of your web development process less daunting.
+Hinode makes the designing of your web development process less daunting.
 
 It is written in pure CSS and Vanilla JavaScript.
 
