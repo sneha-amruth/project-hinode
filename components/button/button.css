@@ -28,3 +28,10 @@
     padding: 0.8rem 6rem;
 }
 
+/*icon buttons*/
+.btn-icon {
+    font-size: 1.6rem;
+    padding: 0.5em;
+    border-radius: 50%;
+    background: transparent;
+}
