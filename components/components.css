@@ -65,20 +65,23 @@ body {
 }
 .side-nav-pills li{
     padding: 15px;
-    margin-left: 50px;
+    margin-left: 60px;
   
 }
 .side-nav-link {
     color: var(--white);
     text-decoration: none;
-   
 }
 .side-nav-link:hover {
     color: black;
 }
 .side-nav-pills li:hover{
+    cursor: pointer;
+    color: black;
     background-color: #f7bb08;
     border-radius: 6px;
+ }
+ .side-nav-pills li:hover a{
     color: black;
  }
 

@@ -85,14 +85,15 @@ body {
 }
 
 .body-intro button {
- background-color: transparent;
- color: var(--white);
- padding: 10px;
- font-size: 20px;
- margin-left: 20px;
- margin-top: 10px;
- border: 1px solid white;
- border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--white);
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
 }
 .body-intro button:hover {
     background-color: #f7bb08;
