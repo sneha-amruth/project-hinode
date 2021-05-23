@@ -1,0 +1,20 @@
+.snackbar {
+    width: 22rem;
+    height: 4rem;
+    margin: 1rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    font-weight: 4rem;
+}
+.snackbar-success {
+    background-color: #099e58;
+}
+.snackbar-error {
+    background-color:#d42424;
+}
+.snackbar-warning {
+    background-color: #FFC300;
+}
+.snackbar-info {
+    background-color: #4698DD;
+}
