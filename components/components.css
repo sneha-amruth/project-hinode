@@ -5,6 +5,7 @@
 @import url("/components/forms/forms.css");
 @import url("/components/modal/modal.css");
 @import url("/components/navbar/navbar.css");
+@import url("/components/snackbar/snackbar.css");
 
 * {
     box-sizing: border-box;
