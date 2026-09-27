@@ -3,7 +3,7 @@
   var btnCancel = document.getElementById("modal-btn-cancel");
   var btnDelete = document.getElementById("modal-btn-delete");
 
-  var span = document.getElementsByClassName("close")[0];
+  var span = modal.querySelector(".close");
 
   btn.onclick = function() {
     modal.style.display = "block";

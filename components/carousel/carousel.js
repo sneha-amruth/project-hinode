@@ -5,15 +5,25 @@ const prevBtn = document.querySelector('.carousel__btn--left');
 const dotsNav = document.querySelector('.carousel__nav');
 const dots = Array.from(dotsNav.children);
 
-const slideWidth = slides[0].getBoundingClientRect().width;
+let slideWidth = slides[0].getBoundingClientRect().width;
 
 const setSlidePos = (slide, index) => {
 
     slide.style.left = slideWidth * index + 'px';
-   
+
  };
 
 slides.forEach(setSlidePos);
+
+//recalculate slide positions on viewport changes so translateX offsets stay in sync with layout
+window.addEventListener('resize', () => {
+    slideWidth = slides[0].getBoundingClientRect().width;
+    slides.forEach(setSlidePos);
+    const currentSlide = track.querySelector('.current-slide');
+    if (currentSlide) {
+        track.style.transform = 'translateX(-' + currentSlide.style.left + ')';
+    }
+});
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
     track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
